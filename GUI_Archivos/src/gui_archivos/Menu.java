@@ -67,7 +67,7 @@ import javax.swing.JPanel;
         botones[3] = new BasicButton(350, 150, "Estadisticas") {
             @Override
             public void clickEvent() {
-
+                new Estadistica(Menu.this);
             }
         };
         botones[3].setLocation(550, 300);
